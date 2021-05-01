@@ -5,4 +5,6 @@ gem 'pry'
 gem 'rspec'
 gem 'rubocop'
 gem 'csv'
+gem 'json'
+gem 'colorize'
 
