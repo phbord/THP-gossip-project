@@ -7,7 +7,11 @@ Dotenv.load('config.json')
 $:.unshift File.expand_path('./../lib', __FILE__)
 require 'router'
 
-router = Router.new
-router.perform
+def perform
+    router = Router.new
+    router.perform
+end
+
+perform
 
 #binding.pry
